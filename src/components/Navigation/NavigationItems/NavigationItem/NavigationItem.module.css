@@ -1,0 +1,6 @@
+.NavigationItem {
+    list-style: none;
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+}

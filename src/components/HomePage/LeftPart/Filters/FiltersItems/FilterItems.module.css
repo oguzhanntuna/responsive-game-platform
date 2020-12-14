@@ -1,0 +1,9 @@
+.FiltersItems {
+    display: flex;
+    align-items: center;
+}
+
+.FiltersItem input {
+    margin-right: 15px;
+    cursor: pointer;
+}

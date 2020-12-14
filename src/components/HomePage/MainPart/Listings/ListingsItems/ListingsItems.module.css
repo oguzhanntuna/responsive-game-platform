@@ -1,0 +1,4 @@
+.ListingItemsBox {
+    display: flex;
+    flex-wrap: wrap;
+}

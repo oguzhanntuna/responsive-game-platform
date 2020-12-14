@@ -1,0 +1,38 @@
+.Filters {
+    flex: 0 1 20%;
+    margin: 30px 0 0 40px;
+    display: flex;
+    align-items: center;
+}
+
+.FiltersBox {
+    background: linear-gradient(rgb(39, 39, 39, 0.85), rgb(39, 39, 39, 0.85));
+    color: #ffffff;
+    border-radius: 15px;   
+    box-shadow: 2px 2px 18px #141414;
+}
+
+.Filters h2 {
+    margin: 40px 20px 20px 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    background-color: #686de0;
+    color: #ffffff;
+    box-shadow: 1px 1px 18px #111111;   
+    
+}
