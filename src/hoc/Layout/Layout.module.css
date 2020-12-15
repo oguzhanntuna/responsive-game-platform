@@ -3,7 +3,7 @@
     margin: 0;
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 50px 100vh;
+    grid-template-rows: 50px auto;
     grid-template-areas: "header header header"
                          "lp mp rp";
 }
@@ -11,4 +11,18 @@
 header {
     width: 100%;
     grid-area: header;
+}
+
+@media screen and (max-width: 850px) {
+    .PageLayout {
+        width: 100%;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50px auto 35% 15%;
+        grid-template-areas: "header"
+                             "mp-phone"
+                             "lp-phone"
+                             "rp-phone";
+    }
 }

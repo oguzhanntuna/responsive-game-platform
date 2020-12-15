@@ -24,7 +24,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 160px;
+    width: 200px;
     height: 35px;
     border: none;
     outline: none;
@@ -34,14 +34,30 @@ button {
     border-radius: 10px;
     background-color: #686de0;
     color: #ffffff;
-    box-shadow: 1px 1px 18px #111111;     
+    box-shadow: 1px 1px 18px #1b1b1b;     
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 1024px) {
+    button {
+        width: 170px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
     button {
         width: 140px;
         height: 30px;
+    }
+}
 
+@media screen and (max-width: 850px) {
+    .Filters {
+        grid-area: lp-phone;
+    }
+    button {
+        width: 200px;
+        height: 35px;
     }
 }
 

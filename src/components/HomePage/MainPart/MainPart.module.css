@@ -4,3 +4,9 @@
     padding: 20px;
     color: #ffffff;
 }
+
+@media screen and (max-width: 850px) {
+    .MainPart {
+        grid-area: mp-phone;
+    }
+}

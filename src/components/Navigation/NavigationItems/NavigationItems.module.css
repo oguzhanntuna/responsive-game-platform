@@ -21,6 +21,17 @@
     justify-content: flex-end;
 }
 
+@media screen and (max-width: 850px) {
+    .Texts {
+        display: none;
+    }
+    .Icons {
+        display: flex;
+        flex: 1;
+    }
+    
+}
+
 
 
 

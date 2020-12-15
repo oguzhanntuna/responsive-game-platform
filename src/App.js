@@ -8,11 +8,13 @@ import Friends from './components/HomePage/RightPart/Friends/Friends';
 function App() {
   return (
     <div className="App">
+      <div className="Background">
       <Layout>
           <Filters />
           <MainPart />
           <Friends />
       </Layout>
+      </div>
     </div>
   );
 }

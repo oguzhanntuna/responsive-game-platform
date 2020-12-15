@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
     margin: 0 10px 30px 10px;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 .CheckBox {
@@ -13,4 +13,10 @@
     background-color: #ffffff;
     margin-right: 10px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .FiltersItem {
+        font-size: 16px;
+    }
 }

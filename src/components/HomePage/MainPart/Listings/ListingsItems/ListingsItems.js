@@ -21,6 +21,12 @@ const myGamesItems = (props) => {
             <ListingItem />
             <ListingItem />
             <ListingItem />
+            <ListingItem />
+            <ListingItem />
+            <ListingItem />
+            <ListingItem />
+            <ListingItem />
+            <ListingItem />
             </div>
         </div>
     );
