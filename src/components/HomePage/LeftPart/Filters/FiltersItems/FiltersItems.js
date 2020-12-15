@@ -5,7 +5,7 @@ import FilterItem from './FiltersItem/FiltersItem';
 
 const filtersItems = (props) => {
     return (
-        <ul className={classes.FiltersItem}>
+        <ul className={classes.FiltersItems}>
             <FilterItem>Gordion Game</FilterItem>
             <FilterItem>Dungeons & Dragons</FilterItem>
             <FilterItem>Warhammer</FilterItem>

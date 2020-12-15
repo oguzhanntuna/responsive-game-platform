@@ -1,5 +1,6 @@
 .MainPart {
-    flex: 0 1 60%;
+    grid-area: mp;
+    margin-top: 40px;
+    padding: 20px;
     color: #ffffff;
-    margin: 120px 0px 20px 0px;
 }

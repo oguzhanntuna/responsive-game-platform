@@ -4,11 +4,11 @@ import classes from './Friends.module.css';
 
 const friends = (props) => {
     return (
-            <div className={classes.Friends}>
+            <aside className={classes.Friends}>
                 <div className={classes.FriendsBox}>
                 <h2>Friends</h2>
                 </div>
-            </div>    
+            </aside>    
     );
 }
 

@@ -5,12 +5,20 @@ import MyGamesItem from './MyGamesItem/MyGamesItem';
 
 const myGamesItems = (props) => {
     return (
-        <div className={classes.MyGamesItemsBox}>
+        <ul className={classes.MyGamesItemsBox}>
             <MyGamesItem />
             <MyGamesItem />
             <MyGamesItem />
             <MyGamesItem />
-        </div>
+            <MyGamesItem />
+            <MyGamesItem />
+            <MyGamesItem />
+            <MyGamesItem />
+            <MyGamesItem />
+            <MyGamesItem />
+            <MyGamesItem />
+            <MyGamesItem />
+        </ul>
     );
 }
 

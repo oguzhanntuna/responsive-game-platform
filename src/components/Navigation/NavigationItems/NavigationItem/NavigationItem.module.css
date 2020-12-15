@@ -1,6 +1,17 @@
 .NavigationItem {
     list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
     font-size: 14px;
-    margin-left: 20px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 925px) {
+    .NavigationItem {
+        font-size: 10px;
+
+    }
+}
+
+

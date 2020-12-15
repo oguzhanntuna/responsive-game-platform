@@ -1,17 +1,23 @@
 .MyGames {
-    
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
 .MyGamesTitle {
     display: flex;
     align-items: center;
+    
 }
 
 .MyGamesTitle h2 {
-    flex: 0 0 85%;
+    flex: 0 0 50%;
 }
 
 .MyGamesTitle h4 {
-    flex: 1;
+    flex: 0 0 50%;
+    display: flex;
     cursor: pointer;
+    align-self: flex-end;
+    justify-content: flex-end;
+    
 }

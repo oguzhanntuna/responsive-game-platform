@@ -4,8 +4,8 @@ import classes from './MyGamesItem.module.css';
 
 const myGamesItem = (props) => {
     return (
-        <div className={classes.MyGamesItem}>
-        </div>
+        <li className={classes.MyGamesItem}>
+        </li>
     );
 }
 

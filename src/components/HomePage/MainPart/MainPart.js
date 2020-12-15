@@ -6,10 +6,10 @@ import Listings from './Listings/Listings';
 
 const mainPart = (props) => {
     return (
-        <div className={classes.MainPart}>
+        <main className={classes.MainPart}>
             <MyGames />
             <Listings />
-        </div>
+        </main>
             
 
     );

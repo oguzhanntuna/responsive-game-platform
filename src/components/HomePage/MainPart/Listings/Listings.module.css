@@ -1,6 +1,5 @@
 .Listing {
-    margin-top: 70px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .ListingTitle {
@@ -9,10 +8,13 @@
 }
 
 .ListingTitle h2 {
-    flex: 0 0 84%;
+    flex: 0 0 50%;
 }
 
 .ListingTitle h4 {
-    flex: 1;
+    flex: 0 0 50%;
+    display: flex;
     cursor: pointer;
+    align-self: flex-end;
+    justify-content: flex-end;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import classes from './FilterItem.module.css';
+import classes from './FiltersItem.module.css';
 
 const filterItem = (props) => {
     return (
-        <div className={classes.FiltersItem}> 
-            <input type="checkbox"></input>
-            <li>{props.children}</li>
-        </div>
+        <li className={classes.FiltersItem}> 
+            <span className={classes.CheckBox}></span>
+            <p>{props.children}</p>
+        </li>
     );
 }
 

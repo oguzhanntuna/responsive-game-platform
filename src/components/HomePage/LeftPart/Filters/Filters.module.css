@@ -1,13 +1,14 @@
 .Filters {
-    flex: 0 1 20%;
-    margin: 30px 0 0 40px;
+    grid-area: lp;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff; 
 }
 
 .FiltersBox {
     background: linear-gradient(rgb(39, 39, 39, 0.85), rgb(39, 39, 39, 0.85));
-    color: #ffffff;
     border-radius: 15px;   
     box-shadow: 2px 2px 18px #141414;
 }
@@ -23,16 +24,24 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
+    width: 160px;
     height: 35px;
     border: none;
+    outline: none;
     cursor: pointer;
     font: inherit;
-    padding: 10px;
     margin: 0 auto 20px auto;
     border-radius: 10px;
     background-color: #686de0;
     color: #ffffff;
-    box-shadow: 1px 1px 18px #111111;   
-    
+    box-shadow: 1px 1px 18px #111111;     
 }
+
+@media screen and (max-width: 925px) {
+    button {
+        width: 140px;
+        height: 30px;
+
+    }
+}
+

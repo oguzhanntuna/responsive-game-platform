@@ -1,4 +1,14 @@
-.Main {
+.PageLayout {
     width: 100%;
-    display: flex;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 50px 100vh;
+    grid-template-areas: "header header header"
+                         "lp mp rp";
+}
+
+header {
+    width: 100%;
+    grid-area: header;
 }

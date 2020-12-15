@@ -6,8 +6,8 @@ import NavigationIcon from './NavigationIcon/NavigationIcon';
 
 const navigationItems = (props) => {
     return (
-        <ul className={classes.NavigationItems}>
-            <div className={classes.Texts}>
+        <div className={classes.NavigationItems}>
+            <ul className={classes.Texts}>
                 <NavigationItem>Home</NavigationItem>
                 <div className={classes.VerticalLine}>|</div>
                 <NavigationItem>Store</NavigationItem>
@@ -17,14 +17,14 @@ const navigationItems = (props) => {
                 <NavigationItem>My Games</NavigationItem>
                 <div className={classes.VerticalLine}>|</div>
                 <NavigationItem>Community</NavigationItem>
-            </div>
-            <div className={classes.Icons}>
+            </ul>
+            <ul className={classes.Icons}>
                 <NavigationIcon><ion-icon name="settings-outline"></ion-icon></NavigationIcon>
                 <NavigationIcon><ion-icon name="notifications-outline"></ion-icon></NavigationIcon>
                 <NavigationIcon><ion-icon name="mail-outline"></ion-icon></NavigationIcon>
                 <NavigationIcon><ion-icon name="person-outline"></ion-icon></NavigationIcon>
-            </div>  
-        </ul>
+            </ul>  
+        </div>
     );
 }
 

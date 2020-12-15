@@ -5,14 +5,14 @@ import FiltersItems from './FiltersItems/FiltersItems';
 
 const filters = (props) => {
     return (
-            <div className={classes.Filters}>
+            <aside className={classes.Filters}>
                 <div className={classes.FiltersBox}>
                 <h2>Filters</h2>
                 <FiltersItems />
                 <button>More</button>
                 </div>
                 
-            </div>    
+            </aside>    
     );
 }
 

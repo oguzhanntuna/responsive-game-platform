@@ -1,3 +1,5 @@
 .MyGamesItemsBox {
     display: flex;
+    overflow-y: scroll;
+    overflow: auto;
 }
