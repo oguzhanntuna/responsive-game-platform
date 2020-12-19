@@ -1,22 +1,22 @@
 import React from 'react';
 
 import classes from './NavigationItems.module.css';
-import NavigationItem from './NavigationItem/NavigationItem';
+import NavigationText from './NavigationText/NavigationText';
 import NavigationIcon from './NavigationIcon/NavigationIcon';
 
 const navigationItems = (props) => {
     return (
         <div className={classes.NavigationItems}>
             <ul className={classes.Texts}>
-                <NavigationItem>Home</NavigationItem>
+                <NavigationText>Home</NavigationText>
                 <div className={classes.VerticalLine}>|</div>
-                <NavigationItem>Store</NavigationItem>
+                <NavigationText>Store</NavigationText>
                 <div className={classes.VerticalLine}>|</div>
-                <NavigationItem>Listings</NavigationItem>
+                <NavigationText>Listings</NavigationText>
                 <div className={classes.VerticalLine}>|</div>
-                <NavigationItem>My Games</NavigationItem>
+                <NavigationText>My Games</NavigationText>
                 <div className={classes.VerticalLine}>|</div>
-                <NavigationItem>Community</NavigationItem>
+                <NavigationText>Community</NavigationText>
             </ul>
             <ul className={classes.Icons}>
                 <NavigationIcon><ion-icon name="settings-outline"></ion-icon></NavigationIcon>
