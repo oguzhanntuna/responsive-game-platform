@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from './NavigationItems.module.css';
-import NavigationText from './NavigationText/NavigationText';
+import NavigationText from './NavigationItem/NavigationItem';
 import NavigationIcon from './NavigationIcon/NavigationIcon';
 
 const navigationItems = (props) => {

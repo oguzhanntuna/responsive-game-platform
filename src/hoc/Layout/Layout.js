@@ -10,7 +10,7 @@ class Layout extends Component {
                 <header>
                     <Toolbar />  
                 </header> 
-                {this.props.children}             
+                    {this.props.children}                          
             </div>
 
 
